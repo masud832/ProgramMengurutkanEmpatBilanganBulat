@@ -21,7 +21,7 @@ public class Main {
 
         for (int i = 0; i < 4; i++) {
             for (int j = i + 1; j < 4; j++) {
-                if (angka[i] < angka[j]) {
+                if (angka[i] < angka[j])  {
                     temp = angka[i];
                     angka[i] = angka[j];
                     angka[j] = temp;
